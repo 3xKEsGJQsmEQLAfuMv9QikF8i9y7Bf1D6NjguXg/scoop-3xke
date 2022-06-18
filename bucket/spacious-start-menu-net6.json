@@ -1,0 +1,32 @@
+{
+    "homepage": "https://github.com/3xKEsGJQsmEQLAfuMv9QikF8i9y7Bf1D6NjguXg/spacious-start-menu",
+    "version": "1.2.0.0",
+    "description": "This is a program launcher that allows you to take advantage of the entire screen area.",
+    "url": "https://github.com/3xKEsGJQsmEQLAfuMv9QikF8i9y7Bf1D6NjguXg/spacious-start-menu/releases/download/v1.2.0.0/SpaciousStartMenu_NET6.zip",
+    "license": "Unlicense",
+    "shortcuts": [
+        [
+        "SpaciousStartMenu.exe",
+        "Spacious Start Menu (.NET 6)"
+        ]
+    ],
+    "hash": "C31F4527632BFCB1211B0092F89F4CB76AC326067097D83BB31FD996F7FC7856",
+    "notes": [
+        "It requires the .NET 6 Desktop Runtime to run.",
+        "https://dotnet.microsoft.com/download/dotnet/6.0"
+    ],
+    "persist": [
+        "menuItems.def",
+        "menuItems.def.bak",
+        "menuItems.def.bak2",
+        "menuItems.def.bak3",
+        "settings.json"
+    ],
+    "pre_install": [
+        "if(-not(test-path \"$dir\\menuItems.def\")) { New-Item \"$dir\\menuItems.def\" > $null }",
+        "if(-not(test-path \"$dir\\menuItems.def.bak\")) { New-Item \"$dir\\menuItems.def.bak\" > $null }",
+        "if(-not(test-path \"$dir\\menuItems.def.bak2\")) { New-Item \"$dir\\menuItems.def.bak2\" > $null }",
+        "if(-not(test-path \"$dir\\menuItems.def.bak3\")) { New-Item \"$dir\\menuItems.def.bak3\" > $null }",
+        "if(-not(test-path \"$dir\\settings.json\")) { New-Item \"$dir\\settings.json\" > $null }"
+    ]
+}
