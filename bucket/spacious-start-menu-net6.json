@@ -1,8 +1,8 @@
 {
     "homepage": "https://3xkesgjqsmeqlafumv9qikf8i9y7bf1d6njguxg.github.io/spacious-start-menu/",
-    "version": "1.2.8.1",
+    "version": "1.2.9.0",
     "description": "This is a program launcher that allows you to take advantage of the entire screen area.",
-    "url": "https://github.com/3xKEsGJQsmEQLAfuMv9QikF8i9y7Bf1D6NjguXg/spacious-start-menu/releases/download/v1.2.8.1/SpaciousStartMenu_NET6.zip",
+    "url": "https://github.com/3xKEsGJQsmEQLAfuMv9QikF8i9y7Bf1D6NjguXg/spacious-start-menu/releases/download/v1.2.9.0/SpaciousStartMenu_NET6.zip",
     "license": "Unlicense",
     "shortcuts": [
         [
@@ -10,7 +10,7 @@
         "Spacious Start Menu (.NET 6)"
         ]
     ],
-    "hash": "55E476571E880E117B951844E175574FDBE5DAEB512A5B7272D2EF603AF041CA",
+    "hash": "942254ED72B12979504C4D9FE06DF3A4488265FF10F5B3289B0AF10546234EC3",
     "notes": [
         "It requires the .NET 6 Desktop Runtime to run.",
         "https://dotnet.microsoft.com/download/dotnet/6.0"
