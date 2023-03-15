@@ -1,32 +1,27 @@
 {
-    "homepage": "https://3xkesgjqsmeqlafumv9qikf8i9y7bf1d6njguxg.github.io/spacious-start-menu/",
-    "version": "1.3.0.0",
-    "description": "This is a program launcher that allows you to take advantage of the entire screen area.",
-    "url": "https://github.com/3xKEsGJQsmEQLAfuMv9QikF8i9y7Bf1D6NjguXg/spacious-start-menu/releases/download/v1.3.0.0/SpaciousStartMenu.zip",
-    "license": "Unlicense",
-    "shortcuts": [
-        [
-        "SpaciousStartMenu.exe",
-        "Spacious Start Menu"
-        ]
-    ],
-    "hash": "15ED9FB2124829ACB234DECA612DC30A8E928ED7FE9C5CB727D1495211A3E238",
-    "notes": [
-        "It requires the .NET 6 Desktop Runtime to run.",
-        "https://dotnet.microsoft.com/download/dotnet/6.0"
-    ],
-    "persist": [
-        "menuItems.def",
-        "menuItems.def.bak",
-        "menuItems.def.bak2",
-        "menuItems.def.bak3",
-        "settings.json"
-    ],
-    "pre_install": [
-        "if(-not(test-path \"$dir\\menuItems.def\")) { New-Item \"$dir\\menuItems.def\" > $null }",
-        "if(-not(test-path \"$dir\\menuItems.def.bak\")) { New-Item \"$dir\\menuItems.def.bak\" > $null }",
-        "if(-not(test-path \"$dir\\menuItems.def.bak2\")) { New-Item \"$dir\\menuItems.def.bak2\" > $null }",
-        "if(-not(test-path \"$dir\\menuItems.def.bak3\")) { New-Item \"$dir\\menuItems.def.bak3\" > $null }",
-        "if(-not(test-path \"$dir\\settings.json\")) { New-Item \"$dir\\settings.json\" > $null }"
-    ]
+  "homepage": "https://3xkesgjqsmeqlafumv9qikf8i9y7bf1d6njguxg.github.io/spacious-start-menu/",
+  "version": "1.3.1.0",
+  "description": "This is a program launcher that allows you to take advantage of the entire screen area.",
+  "url": "https://github.com/3xKEsGJQsmEQLAfuMv9QikF8i9y7Bf1D6NjguXg/spacious-start-menu/releases/download/v1.3.1.0/SpaciousStartMenu.zip",
+  "license": "Unlicense",
+  "shortcuts": [["SpaciousStartMenu.exe", "Spacious Start Menu"]],
+  "hash": "C6A051BE72881A4D2F47AA9959A57BD6AA3FEA0F47AFDEDAAA32C59D1A20DF97",
+  "notes": [
+    "It requires the .NET 6 Desktop Runtime to run.",
+    "https://dotnet.microsoft.com/download/dotnet/6.0"
+  ],
+  "persist": [
+    "menuItems.def",
+    "menuItems.def.bak",
+    "menuItems.def.bak2",
+    "menuItems.def.bak3",
+    "settings.json"
+  ],
+  "pre_install": [
+    "if(-not(test-path \"$dir\\menuItems.def\")) { New-Item \"$dir\\menuItems.def\" > $null }",
+    "if(-not(test-path \"$dir\\menuItems.def.bak\")) { New-Item \"$dir\\menuItems.def.bak\" > $null }",
+    "if(-not(test-path \"$dir\\menuItems.def.bak2\")) { New-Item \"$dir\\menuItems.def.bak2\" > $null }",
+    "if(-not(test-path \"$dir\\menuItems.def.bak3\")) { New-Item \"$dir\\menuItems.def.bak3\" > $null }",
+    "if(-not(test-path \"$dir\\settings.json\")) { New-Item \"$dir\\settings.json\" > $null }"
+  ]
 }
