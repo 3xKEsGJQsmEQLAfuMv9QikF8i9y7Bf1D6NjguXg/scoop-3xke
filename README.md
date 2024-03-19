@@ -35,7 +35,7 @@ scoop list
 
 # Update
 scoop update
-scoop spacious-start-menu
+scoop update spacious-start-menu
 
 # Uninstall app
 scoop uninstall spacious-start-menu
