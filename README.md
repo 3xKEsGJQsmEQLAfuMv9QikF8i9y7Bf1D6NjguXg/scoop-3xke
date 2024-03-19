@@ -28,7 +28,7 @@ scoop search spacious-start-menu
 scoop info spacious-start-menu
 
 # Install app
-# scoop install spacious-start-menu
+scoop install spacious-start-menu
 
 # List of installed apps
 scoop list
