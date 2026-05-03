@@ -4,7 +4,7 @@ scoop bucket add 3xkesg https://github.com/3xKEsGJQsmEQLAfuMv9QikF8i9y7Bf1D6Njgu
 ```
 
 - `spacious-start-menu` : This is an application that references the latest .NET runtime version.
-- `spacious-start-menu-net8` : This is an application that referring to the runtime version of .NET8.
+- `spacious-start-menu-net8` : This is an application that referring to the runtime version of .NET10.
 
 <details>
 <summary>Quick reference</summary>
